@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu');
+}
+@font-face {
+	font-family: FontAwesome;
+	src:local("Font Awesome"),
+	url(../fonts/FontAwesome.otf) format("opentype");
+}
+@font-face {
+	font-family: Vermind Vibes Redux;
+	src:local("Vermind Vibes Redux"),
+	url(../fonts/vermind_vibes_redux.ttf);
+}
+@font-face {
+	font-family: AmazDooMRightOutline;
+	src:local("AmazDooMRightOutline"),
+	url(../fonts/AmazDooMRightOutline.ttf);
+}

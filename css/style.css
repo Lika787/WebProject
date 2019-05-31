@@ -1,0 +1,511 @@
+body, html {
+  margin: 0px;
+  padding: 0;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.hide {
+  overflow: hidden;
+}
+
+.header {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header h2 {
+  text-align: left;
+  font-size: 48px;
+  color: #fbfcfe;
+  margin-top: 200px;
+  font-weight: 400;
+}
+
+.header h3 {
+  text-align: left;
+  font-size: 30px;
+  color: #fcfcfc;
+  margin-top: 50px;
+  font-weight: 100;
+  opacity: 0.6;
+}
+
+.header button {
+  float: right;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  background-color: #2b333e !important;
+  min-height: 100vh;
+  left: 0;
+  position: fixed !important;
+  z-index: 200;
+}
+
+.navbar-nav {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+.navbar-nav a {
+  color: #7c90ad !important;
+  text-align: center;
+  font-size: 16px !important;
+}
+
+.nav-link {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #7c90ad;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.nav-link p {
+  margin-bottom: 0px !important;
+}
+
+.navbar-brand {
+  margin-bottom: 20px;
+}
+
+.second_page h2 {
+  margin-bottom: 30px;
+  font-size: 60px;
+  opacity: 0.6;
+}
+
+.second_page h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.second_page h4 {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.second_page p {
+  font-size: 14px;
+}
+
+.blue-bcg {
+  background-color: #26283d;
+}
+
+.blue-table {
+  background-color: #26283d !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  text-transform: uppercase !important;
+  font-weight: 300 !important;
+}
+
+.pricing ul {
+  padding-left: 0;
+}
+
+.pricing ul li {
+  font-size: 14px;
+  padding-left: 20px;
+  line-height: 25px;
+  border-bottom: 1px solid;
+}
+
+.pricing .table {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.table-1 .blue-table {
+  border-left: 1px solid #000;
+}
+
+.table-1 ul li {
+  border-left: 1px solid #000;
+  background: #fdfcfc;
+}
+
+.table-2 .blue-table {
+  border-left: 1px solid  #000;
+}
+
+.table-2 ul li {
+  border-left: 0.5px solid  #000;
+  border-right: 1px solid  #000;
+  background: #fbfcfd;
+}
+
+.third-page {
+  background: #e8e8e8;
+}
+
+.third-page h2 {
+  padding-top: 50px;
+  font-size: 60px;
+  opacity: 0.4;
+  text-align: left;
+}
+
+.third-page h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.third-page img {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 20;
+}
+
+.third-page p {
+  margin-bottom: 100px;
+}
+
+.fourth-page {
+  background: #2b333e;
+  color: #fff;
+}
+
+.fourth-page h2 {
+  padding-top: 50px;
+  font-size: 60px;
+  opacity: 0.4;
+  text-align: left;
+}
+
+.fourth-page h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fourth-page img {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.fourth-page button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.fourth-page button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fifth-block h2 {
+  padding-top: 50px;
+  font-size: 60px;
+  opacity: 0.4;
+  text-align: left;
+}
+
+.fifth-block h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fifth-block p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.fifth-block p:last-child {
+  margin-bottom: 100px;
+}
+
+.fifth-block span {
+  font-weight: 600;
+}
+
+.fifth-block img {
+  width: 75%;
+}
+
+.page-6 {
+  background: #2b333e;
+}
+
+.page-6 h2 {
+  padding-top: 50px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+.page-6 button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.page-6 button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page-6 img {
+  position: absolute;
+  bottom: 20px;
+}
+
+.raz {
+  background: #f4ad24;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.primeru {
+  background: url(../img/body_bg.jpg) no-repeat center;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.primeru button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.primeru button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pochemu img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.pochemu h4 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.zakaz {
+  background: url(../img/body_bg2.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 100;
+  padding-bottom: 100px;
+}
+
+.zakaz button {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+.zakaz button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contacts ul {
+  margin-bottom: 30px;
+  margin-left: 35px;
+}
+
+.contacts ul li {
+  margin-bottom: 10px;
+}
+
+.contacts button {
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 13px;
+}
+
+.contacts h2 {
+  padding-top: 100px;
+  font-size: 60px;
+  opacity: 0.4;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.contacts h3 {
+  font-size: 18px;
+  margin-bottom: 85px;
+}
+
+.contacts h4 {
+  font-size: 16px;
+}
+
+.contacts span {
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.contacts img {
+  height: 30px;
+}
+
+.contacts input {
+  height: 40px;
+  font-size: 13px;
+  border: 1px solid;
+}
+
+.contacts #message-input {
+  height: 80px !important;
+}
+
+.contacts-right {
+  padding-bottom: 100px;
+}
+
+.contacts-right img {
+  height: 300px;
+}
+
+.footer {
+  background: #2b333e;
+  color: #fff;
+}
+
+.footertext1 span {
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: 200;
+}
+
+.footertext2 span {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.ff {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_menu {
+  padding-bottom: 70px;
+}
+
+.footer_menu ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.footer_menu ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.footer_menu ul li a {
+  font-size: 18px;
+  color: #fff;
+}
+
+#timer991bb4dcad642951f723db997eb49403 {
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.popup {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+.popup_bg {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.popup_img {
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+  max-height: 94%;
+  max-width: 94%;
+  margin: 1% 0 0 0;
+}
+/*# sourceMappingURL=style.css.map */

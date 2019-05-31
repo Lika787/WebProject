@@ -1,0 +1,12 @@
+[2018-03-28 09:05:06] layer " sbits484@gmail.com": Unsupported extension: com
+[2018-03-28 09:05:06] layer "+7 495 628-48-24 ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-03-28 09:05:06] layer " sbits484@gmail.com": Unsupported extension: com
+[2018-03-28 09:05:06] layer "+7 495 628-48-24 ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-03-28 09:05:06] layer "+7(___) ___-__-____": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-03-28 09:05:06] layer "+7(___) ___-__-____": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-03-28 09:05:06] layer "Этап 1. Вы пишете мне на почту vavilin-nn@mail.ru или в ВКонтак": Expected end of input but "\u0438" found.
+[2018-03-28 09:05:06] layer " sbits484@gmail.com": Unsupported extension: com
+[2018-03-28 09:05:06] layer "+7 495 628-48-24 ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-03-28 09:05:06] layer "+7(___) ___-__-____": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-03-28 09:05:06] layer "+7(___) ___-__-____": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-03-28 09:05:06] layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
